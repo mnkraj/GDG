@@ -1,0 +1,116 @@
+.core_container {
+    margin: 5% 7%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .core_mem {
+    
+    height: 26rem;
+    width: 20rem;
+    // border-radius: 50%;
+    
+    box-sizing: border-box;
+
+    overflow: hidden;
+    transition: all 350ms ease-in-out;
+    margin: 0 min(0.5rem, 2vw);
+  }
+  
+  .core_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  }
+  
+  .core_images img {
+    width: 100%;
+    height: 20rem;
+    top: 0px;
+    transition: all 350ms ease-in-out;
+    vertical-align: middle;
+    object-fit: cover;
+  }
+  
+  .core_mem:hover .core_images img {
+    margin-top: 1rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+  }
+  
+  .core_title {
+    font-size: 1.25rem;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  
+  .core_description {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .core_mem_text {
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: all 350ms ease-in-out;
+  }
+  
+  .core_mem:hover .core_mem_text {
+    display: flex;
+    font-size: 0.975rem;
+    font-weight: 500;
+    // line-height: 1.2rem;
+    letter-spacing: 0em;
+    text-align: center;
+    // margin-top: 0.7rem;
+    // margin-bottom: 1.4rem;
+  }
+  
+  .body {
+    width: 100%;
+  }
+  
+  .social_media_core {
+    transition: all 350ms ease-in-out;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2.2rem;
+  }
+  
+  .socialicon {
+    scale: 1.625;
+  }
+  
+  .socialicon:hover {
+    transition: transform 350ms ease-in-out;
+    transform: scale(1.5);
+  }
+  
+  .core_mem:hover .social_media_core {
+    margin-top: 0.7rem;
+    display: flex;
+  }
+  
+  .SocialLogoCore {
+    color: #232323 !important;
+    top: 0px;
+    border-radius: 0px;
+    position: relative;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .SocialLogoCore svg {
+    color: #232323 !important;
+    padding: 0rem;
+  }
