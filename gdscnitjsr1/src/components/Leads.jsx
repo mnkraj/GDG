@@ -1,88 +1,90 @@
 import React from 'react';
 import Llogo from '../img/gdsc bracket left.svg';
 import Rlogo from '../img/gdsc bracket right.svg';
-import A from '../img/leads/1.png';
-import Adi from '../img/leads/2.png';
-import Ad from '../img/leads/3.png';
-import Sh from '../img/leads/4.png';
+import A from '../img/leads/1.jpg';
+import Adi from '../img/leads/2.jpeg';
+import Ad from '../img/leads/3.jpg';
+import Sh from '../img/leads/4.jpg';
 import Sid from '../img/leads/5.png';
-import P from '../img/leads/6.png';
+import P from '../img/leads/6.jpeg';
 import TeamCard from './TeamCard';
 
 const Leads = () => {
     const profiles = [
         {
             img: A,
-            name: "Akash Ranjan",
-            position: "GDSC Lead",
+            name: "Mahak Gupta",
+            position: "GDG Lead",
             description: "",
-            linkedin: "https://linkedin.com/in/akash-ranjan",
-            github: "https://github.com/akash-ranjan",
-            instagram: "https://instagram.com/akash.ranjan",
+            linkedin: "https://www.linkedin.com/in/mahak-gupta-366b68201/",
+            github: "https://github.com/Mahak-G",
+            instagram: "",
             facebook: "",
             website: "",
-            gmail: "2021ugee063@nitjsr.ac.in"
+            gmail: "mg.gupta2001@gmail.com"
         },
         {
             img: Sh,
-            name: "Shubham Kumar",
-            position: "Creative & Socials Lead",
+            name: "Prachi Samuel",
+            position: "Social Media Lead",
             description: "",
-            linkedin: "https://linkedin.com/in/shubham-kumar",
-            github: "https://github.com/shubham-kumar",
-            instagram: "https://instagram.com/shubham.kumar",
+            linkedin: "https://www.linkedin.com/in/prachi-samuel-a7722624a",
+            github: "https://github.com/prachisamuel",
+            instagram: "",
             facebook: "",
             website: "",
-            gmail: "shubham.kumar@example.com"
-        },
-        {
-            img: Sid,
-            name: "Sidharth Sharma",
-            position: "Team Manager and Cloud Lead",
-            description: "",
-            linkedin: "https://linkedin.com/in/sidharth-sharma",
-            github: "https://github.com/sidharth-sharma",
-            instagram: "https://instagram.com/sidharth.sharma",
-            facebook: "",
-            website: "",
-            gmail: "2021ugmm063@nitjsr.ac.in"
-        },
-        {
-            img: Adi,
-            name: "Aditya Gautam",
-            position: "Android Lead",
-            description: "",
-            linkedin: "https://linkedin.com/in/aditya-gautam",
-            github: "https://github.com/aditya-gautam",
-            instagram: "https://instagram.com/aditya.gautam",
-            facebook: "",
-            website: "",
-            gmail: "aditya.gautam@example.com"
+            gmail: "prachisamuelofficial@gmail.com"
         },
         {
             img: Ad,
-            name: "Adarsh Tiwari",
-            position: "Technical Lead",
+            name: "Aanchal Sikarwar",
+            position: "Event Management Lead",
             description: "",
-            linkedin: "https://linkedin.com/in/adarsh-tiwari",
-            github: "https://github.com/adarsh-tiwari",
-            instagram: "https://instagram.com/adarsh.tiwari",
+            linkedin: "https://www.linkedin.com/in/aanchal-sikarwar-711223258",
+            github: "https://github.com/Aanchal2004",
+            instagram: "",
             facebook: "",
             website: "",
-            gmail: "adarsh.tiwari@example.com"
+            gmail: "aanchal3104@gmail.com"
         },
+        
         {
             img: P,
-            name: "Priyanshu Raj",
-            position: "Event Lead",
+            name: "Mayank Raj",
+            position: "Technical Lead",
             description: "",
-            linkedin: "https://linkedin.com/in/priyanshu-raj",
-            github: "https://github.com/priyanshu-raj",
-            instagram: "https://instagram.com/priyanshu.raj",
+            linkedin: "https://www.linkedin.com/in/mnkraj",
+            github: "https://github.com/mnkraj",
+            instagram: "",
             facebook: "",
             website: "",
-            gmail: "priyanshu.raj@example.com"
+            gmail: "mayankraj7100@gmail.com"
         },
+        {
+            img: Adi,
+            name: "Anamika Malakar",
+            position: "PR Lead",
+            description: "",
+            linkedin: "https://www.linkedin.com/in/anamika-malakar-320111147",
+            github: "https://github.com/Anamika2416",
+            instagram: "https://www.instagram.com/_anamika0608_?igsh=MTdrbG13bnQ4YzJuaA==",
+            facebook: "",
+            website: "",
+            gmail: "anamikamalakar777@gmail.com"
+        },
+        {
+            img: Sid,
+            name: "Sagnik Patwari",
+            position: "Content Management Lead",
+            description: "",
+            linkedin: "https://www.linkedin.com/in/sagnikpatwari",
+            github: "",
+            instagram: "https://www.instagram.com/sagnikpatwari",
+            facebook: "",
+            website: "",
+            gmail: "sagnikpatwari@gmail.com"
+        },
+        
     ];
 
     return (
