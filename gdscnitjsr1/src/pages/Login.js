@@ -63,7 +63,7 @@ const Login = () => {
     setLoading(true);
     e.preventDefault();
 
-    const response = await fetch("http://localhost:3080/api/v1/login", {
+    const response = await fetch("https://gdg-rho.vercel.app/api/v1/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -49,7 +49,7 @@ const OurTeam = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3080/api/v1/displaymembers"
+          "https://gdg-rho.vercel.app/api/v1/displaymembers"
         );
         const filteredProfiles = response.data.filter(person => person.teamType !== "lead");
         setProfiles(filteredProfiles);

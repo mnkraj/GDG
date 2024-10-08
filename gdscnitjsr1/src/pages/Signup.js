@@ -85,7 +85,7 @@ const Signup = () => {
     setLoading(true);
 
     const response = await fetch(
-      "http://localhost:3080/api/v1/signup",
+      "https://gdg-rho.vercel.app/api/v1/signup",
       {
         method: "POST",
         headers: {

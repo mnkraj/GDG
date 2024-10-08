@@ -41,7 +41,7 @@ export default function Events() {
   ));
   const fetchdata = async () => {
     const response = await axios.get(
-      "http://localhost:3080/api/v1/displayevents"
+      "https://gdg-rho.vercel.app/api/v1/displayevents"
     );
     console.log(response.data);
     setproductdata(response.data);

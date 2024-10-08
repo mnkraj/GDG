@@ -43,7 +43,7 @@ const HackathonTable = () => {
 
   useEffect(() => {
     // Fetch data from backend API
-    axios.get('http://localhost:3080/api/v1/hackathon/get')
+    axios.get('https://gdg-rho.vercel.app/api/v1/hackathon/get')
       .then(response => {
         setTeams(response.data.data); // Assuming response.data.data contains the array of teams
       })

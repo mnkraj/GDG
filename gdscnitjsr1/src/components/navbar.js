@@ -51,7 +51,7 @@ function Navbar() {
       // navigate("/login");
     } else {
       const ans = await axios.post(
-        "http://localhost:3080/api/user/authenticate",
+        "https://gdg-rho.vercel.app/api/user/authenticate",
         {
           email: value,
         }

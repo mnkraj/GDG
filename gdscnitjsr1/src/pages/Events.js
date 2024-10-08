@@ -28,7 +28,7 @@ const Addevents = () => {
       navigate("/login");
     } else {
       const ans = await axios.post(
-        "http://localhost:3080/api/user/authenticate",
+        "https://gdg-rho.vercel.app/api/user/authenticate",
         { email: value }
       );
       if (!ans.data.success) {
@@ -73,7 +73,7 @@ const Addevents = () => {
     formData.append("image", image);
 
     const response = await axios.post(
-      "http://localhost:3080/api/v1/addevents",
+      "https://gdg-rho.vercel.app/api/v1/addevents",
       formData,
       { headers: { "Content-Type": "application/json" } }
     );

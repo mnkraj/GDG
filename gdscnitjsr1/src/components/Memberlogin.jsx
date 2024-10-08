@@ -72,7 +72,7 @@ const MemberLoginPage = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:3080/api/v1/otp", {
+      const response = await axios.post("https://gdg-rho.vercel.app/api/v1/otp", {
         registration: registrationNo,
       });
       if (!response.data.success) {
@@ -95,7 +95,7 @@ const MemberLoginPage = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:3080/api/v1/verify-otp", {
+      const response = await axios.post("https://gdg-rho.vercel.app/api/v1/verify-otp", {
         registration: registrationNo,
         otp: otp,
       });

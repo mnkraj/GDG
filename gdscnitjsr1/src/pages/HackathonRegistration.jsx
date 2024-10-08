@@ -94,7 +94,7 @@ const Signup = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3080/api/v1/hackathon/register",
+        "https://gdg-rho.vercel.app/api/v1/hackathon/register",
         {
           method: "POST",
           headers: {

@@ -82,7 +82,7 @@ export default function CreatePost() {
     e.preventDefault();
     try {
       const res = await fetch(
-        "http://localhost:3080/api/post/create",
+        "https://gdg-rho.vercel.app/api/post/create",
         {
           method: "POST",
           headers: {

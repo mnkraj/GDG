@@ -12,7 +12,7 @@ import TeamCard from './TeamCard';
 const Leads = () => {
     const profiles = [
         {
-            img: "https://res.cloudinary.com/dqw4vtcul/image/upload/v1728379507/products/zzgas1wstrpw4sz1myd7.jpg",
+            img: A,
             name: "Akash Ranjan",
             position: "GDSC Lead",
             description: "",

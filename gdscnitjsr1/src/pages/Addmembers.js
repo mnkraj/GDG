@@ -34,7 +34,7 @@ export const Addmembers = () => {
       navigate("/login");
     } else {
       const ans = await axios.post(
-        "http://localhost:3080/api/user/authenticate",
+        "https://gdg-rho.vercel.app/api/user/authenticate",
         { email: value }
       );
 
@@ -127,7 +127,7 @@ export const Addmembers = () => {
       formData.append("x", x);
 
       const res = await axios.post(
-        "http://localhost:3080/api/user/addmember",
+        "https://gdg-rho.vercel.app/api/user/addmember",
         formData,
         {
           headers: {

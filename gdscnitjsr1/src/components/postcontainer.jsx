@@ -17,7 +17,7 @@ function Poster() {
   useEffect(() => {
     // Fetch data from posts API
     axios
-      .get("http://localhost:3080/api/post/getposts")
+      .get("https://gdg-rho.vercel.app/api/post/getposts")
       .then((response) => {
         setPosts(response.data.posts);
         setLoading(false);
@@ -29,7 +29,7 @@ function Poster() {
 
     // Fetch data from displaymembers API
     axios
-      .get("http://localhost:3080/api/v1/displaymembers")
+      .get("https://gdg-rho.vercel.app/api/v1/displaymembers")
       .then((response) => {
         setMembers(response.data);
       })

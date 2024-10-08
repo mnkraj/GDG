@@ -15,7 +15,7 @@ export default function PostPage() {
       try {
         setLoading(true);
         const res = await fetch(
-          `http://localhost:3080/api/post/getposts?slug=${slug}`
+          `https://gdg-rho.vercel.app/api/post/getposts?slug=${slug}`
         );
         const data = await res.json();
         if (!res.ok) {
@@ -41,7 +41,7 @@ export default function PostPage() {
       const fetchUser = async () => {
         try {
           const res = await fetch(
-            `http://localhost:3080/api/v1/displaymembers`
+            `https://gdg-rho.vercel.app/api/v1/displaymembers`
           );
           const data = await res.json();
           const userData = data.find(
@@ -60,7 +60,7 @@ export default function PostPage() {
     try {
       const fetchRecentPosts = async () => {
         const res = await fetch(
-          `http://localhost:3080/api/post/getposts?limit=3`
+          `https://gdg-rho.vercel.app/api/post/getposts?limit=3`
         );
         const data = await res.json();
         if (res.ok) {
